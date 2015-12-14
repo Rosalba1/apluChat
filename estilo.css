@@ -1,0 +1,128 @@
+.cabecera{
+    width: 1330px;
+    height: 80px;
+    margin: 0 auto; 
+}
+.titulo{
+     text-align: center;
+     font: 38px Helvetica;
+     display: inline-block;
+     float: left;
+     color: #000000;
+     margin-top: 20px;
+}
+.borde1{
+    width: 560px;
+    height: 40px;
+    border-bottom: 2px solid #000000;
+    float: left;
+}
+.borde2{
+    width: 560px;
+    height: 40px;
+    border-bottom: 2px solid #000000;
+    float: left;
+}
+.cuerpo{
+    width: 900px;
+    height: 800px;
+    margin: 0 auto;
+}
+.contGrupos{
+    width: 260px;
+    height: 600px;
+    float: left;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    overflow-y: scroll;
+    white-space: nowrap;
+}
+.grupos{
+    width: 210px;
+    height: 90px;
+    background: rgba(0,0,0,.1);
+    margin: 15px;
+    border-radius: 5px;
+}
+.grupos:hover{
+    width: 210px;
+    height: 90px;
+    background: rgba(0,0,0,.15);
+    margin: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.contChat{
+    margin: 0 auto;
+    width: 635px;
+    height: 800px;
+    float: left;
+    border-radius: 5px;
+}
+.contChat .usuario{
+    width: 300px;
+    height: 20px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.contChat .contenedor{
+    width: 620px;
+    height: 500px;
+    border-radius: 5px;
+    text-align: justify;
+    margin: 5px;
+}
+.contChat .texto{
+    width: 400px;
+    height: 30px;
+    margin: 5px;
+    float: left;
+    border-radius: 5px;
+}
+.btnEnviar{
+    width: 120px;
+    height: 30px;
+    background: transparent;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-weight: bold;
+    cursor: pointer;
+    border: 1px solid #FFFFFF;
+    font: 16px Helvetica;
+}
+.btnEnviar:hover{
+    width: 120px;
+    height: 30px;
+    background: rgba(0,0,0,.15);
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-weight: bold;
+    cursor: pointer;
+    border: 1px solid #FFFFFF;
+    font: 16px Helvetica;
+}
+.btnNuevoGrupo{
+    width: 120px;
+    height: 30px;
+    background: transparent;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-weight: bold;
+    cursor: pointer;
+    border: 1px solid #FFFFFF;
+    font: 16px Helvetica;
+    margin-bottom: 10px;
+}
+.btnNuevoGrupo:hover{
+    width: 120px;
+    height: 30px;
+    background: rgba(0,0,0,.15);
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-weight: bold;
+    cursor: pointer;
+    border: 1px solid #FFFFFF;
+    font: 16px Helvetica;
+    margin-bottom: 10px;
+}
