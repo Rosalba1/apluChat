@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="estilo.css">
+    </head>
+   
+    <body style="margin: 0px; background: -webkit-linear-gradient(top, #FFFFFF, #006699);">
+        <div class="cabecera">
+            <div class="borde1"></div>
+            <div class="titulo">@plu_Ch@t</div>
+            <div class="borde2"></div>
+        </div>
+        <div class="cuerpo">
+            <script type="text/javascript">var i= 0;</script>
+            <div class="contGrupos">
+                <h3 style="font-weight: bolder; font: 18px Helvetica; margin-left:  15px;">Mis Grupos...</h3>
+                <div class="grupos" id="General" onclick="tema='General'"><h3>General</h3></div>
+                <br><br>
+                <input type="text" id="nuevoGrupo" placeholder="Nuevo Grupo..." style="margin-left: 15px;">
+                <br><br>
+                <input type="button" id="btnNuevoGrupo" class="btnNuevoGrupo" value="Crear Grupo" style="margin-left: 15px;">
+            </div>
+            <div class="contChat">
+                <b style="color: #000000; font-weight: bolder; font: 15px Helvetica; margin: 5px;">Usuario:</b><input class="usuario" type="text" id="usuario"/>
+                <br>
+                <textarea class="contenedor" id="contedido"></textarea>
+                <br>
+                <input class="texto" type="text" id="texto"/>
+                <div style="width: 40px;height: 40px; float: left;border-radius: 100px; font-size: 35px; margin-top: -2px; text-align: center; cursor: pointer;"  onclick="
+                    i++;
+                    if(i%2==0){
+                       document.getElementById('divEmog').style.display = 'none';
+                       document.getElementById('enviar').style.display = 'block'; 
+                    }else{
+                       document.getElementById('divEmog').style.display = 'block'; 
+                       document.getElementById('enviar').style.display = 'none'; 
+                    }
+                    "
+                                    >&#128541</div>
+                <button id="enviar" class="btnEnviar" style="float: left; margin: 5px;">Enviar</button>
+                <div class="divEmog" id="divEmog" style="cursor: pointer;display: none;width: 300px; height: 150px; position: absolute; background: rgba(0,0,0,.1); margin-left: 450px; border: 1px solid #FFFFFF; border-radius: 5px;">
+                    <p style="display: inline-block;" onclick="document.getElementById('texto').value += '&#128512'">&#128512</p>
+                    <p style="display: inline-block;" onclick="document.getElementById('texto').value += '&#128513'">&#128513</p>
+                    <p style="display: inline-block;" onclick="document.getElementById('texto').value += '&#128514'">&#128514</p>
+                    <p style="display: inline-block;" onclick="document.getElementById('texto').value += '&#128515'">&#128515</p>
+                    <p style="display: inline-block;" onclick="document.getElementById('texto').value += '&#128516'">&#128516</p>
+                    <p style="display: inline-block;" onclick="document.getElementById('texto').value += '&#128517'">&#128517</p>
+                    <p style="display: inline-block;" onclick="document.getElementById('texto').value += '&#128518'">&#128518</p>
+                    <p style="display: inline-block;" onclick="document.getElementById('texto').value += '&#128519'">&#128519</p>
+                    <p style="display: inline-block;" onclick="document.getElementById('texto').value += '&#128510'">&#128510</p>
+                    
+                    <p style="display: inline-block;" onclick="document.getElementById('texto').value += '&#128521'">&#128521</p>
+                    <p style="display: inline-block;" onclick="document.getElementById('texto').value += '&#128522'">&#128522</p>
+                    <p style="display: inline-block;" onclick="document.getElementById('texto').value += '&#128523'">&#128523</p>
+                    <p style="display: inline-block;" onclick="document.getElementById('texto').value += '&#128524'">&#128524</p>
+                    <p style="display: inline-block;" onclick="document.getElementById('texto').value += '&#128525'">&#128525</p>
+                    <p style="display: inline-block;" onclick="document.getElementById('texto').value += '&#128526'">&#128526</p>
+                    <p style="display: inline-block;" onclick="document.getElementById('texto').value += '&#128527'">&#128527</p>
+                    <p style="display: inline-block;" onclick="document.getElementById('texto').value += '&#128528'">&#128528</p>
+                    <p style="display: inline-block;" onclick="document.getElementById('texto').value += '&#128529'">&#128529</p>
+                    <p style="display: inline-block;" onclick="document.getElementById('texto').value += '&#128520'">&#128520</p>
+                    
+                    <p style="display: inline-block;" onclick="document.getElementById('texto').value += '&#128531'">&#128531</p>
+                    <p style="display: inline-block;" onclick="document.getElementById('texto').value += '&#128532'">&#128532</p>
+                    <p style="display: inline-block;" onclick="document.getElementById('texto').value += '&#128533'">&#128533</p>
+                    <p style="display: inline-block;" onclick="document.getElementById('texto').value += '&#128534'">&#128534</p>
+                    <p style="display: inline-block;" onclick="document.getElementById('texto').value += '&#128535'">&#128535</p>
+                    <p style="display: inline-block;" onclick="document.getElementById('texto').value += '&#128536'">&#128536</p>
+                    <p style="display: inline-block;" onclick="document.getElementById('texto').value += '&#128537'">&#128537</p>
+                    <p style="display: inline-block;" onclick="document.getElementById('texto').value += '&#128538'">&#128538</p>
+                    <p style="display: inline-block;" onclick="document.getElementById('texto').value += '&#128539'">&#128539</p>
+                    <p style="display: inline-block;" onclick="document.getElementById('texto').value += '&#128530'">&#128530</p>
+                    
+                    <p style="display: inline-block;" onclick="document.getElementById('texto').value += '&#128541'">&#128541</p>
+                    <p style="display: inline-block;" onclick="document.getElementById('texto').value += '&#128542'">&#128542</p>
+                    <p style="display: inline-block;" onclick="document.getElementById('texto').value += '&#128543'">&#128543</p>
+                    <p style="display: inline-block;" onclick="document.getElementById('texto').value += '&#128544'">&#128544</p>
+                    <p style="display: inline-block;" onclick="document.getElementById('texto').value += '&#128545'">&#128545</p>
+                    <p style="display: inline-block;" onclick="document.getElementById('texto').value += '&#128546'">&#128546</p>
+                    <p style="display: inline-block;" onclick="document.getElementById('texto').value += '&#128547'">&#128547</p>
+                    <p style="display: inline-block;" onclick="document.getElementById('texto').value += '&#128548'">&#128548</p>
+                    <p style="display: inline-block;" onclick="document.getElementById('texto').value += '&#128549'">&#128549</p>
+                    <p style="display: inline-block;" onclick="document.getElementById('texto').value += '&#128540'">&#128540</p>
+                    
+                </div>
+                
+            </div>
+        </div>
+        <script type="text/javascript" src="Chat.js"></script>
+    </body>
+</html>
